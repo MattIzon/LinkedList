@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../LinkedList.hpp"
+#include "../LinkedList/LinkedList.hpp"
 
 TEST(Initialisation, No_Values)
 {
