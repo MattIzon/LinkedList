@@ -1,0 +1,82 @@
+[
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build",
+  "command": "/usr/bin/g++   -g -fPIC -o CMakeFiles/LinkedList.dir/main.cpp.o -c /home/matt/Desktop/C++/LinkedList/main.cpp",
+  "file": "/home/matt/Desktop/C++/LinkedList/main.cpp"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build",
+  "command": "/usr/bin/g++   -g -fPIC -o CMakeFiles/LinkedList.dir/Node/Node.cpp.o -c /home/matt/Desktop/C++/LinkedList/Node/Node.cpp",
+  "file": "/home/matt/Desktop/C++/LinkedList/Node/Node.cpp"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build",
+  "command": "/usr/bin/g++   -g -fPIC -o CMakeFiles/LinkedList.dir/LinkedList/LinkedList.cpp.o -c /home/matt/Desktop/C++/LinkedList/LinkedList/LinkedList.cpp",
+  "file": "/home/matt/Desktop/C++/LinkedList/LinkedList/LinkedList.cpp"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build",
+  "command": "/usr/bin/g++   -g -fPIE -o CMakeFiles/LL.dir/main.cpp.o -c /home/matt/Desktop/C++/LinkedList/main.cpp",
+  "file": "/home/matt/Desktop/C++/LinkedList/main.cpp"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build",
+  "command": "/usr/bin/g++   -g -fPIE -o CMakeFiles/LL.dir/Node/Node.cpp.o -c /home/matt/Desktop/C++/LinkedList/Node/Node.cpp",
+  "file": "/home/matt/Desktop/C++/LinkedList/Node/Node.cpp"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build",
+  "command": "/usr/bin/g++   -g -fPIE -o CMakeFiles/LL.dir/LinkedList/LinkedList.cpp.o -c /home/matt/Desktop/C++/LinkedList/LinkedList/LinkedList.cpp",
+  "file": "/home/matt/Desktop/C++/LinkedList/LinkedList/LinkedList.cpp"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build",
+  "command": "/usr/bin/g++   -g -fPIC -o CMakeFiles/Node.dir/main.cpp.o -c /home/matt/Desktop/C++/LinkedList/main.cpp",
+  "file": "/home/matt/Desktop/C++/LinkedList/main.cpp"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build",
+  "command": "/usr/bin/g++   -g -fPIC -o CMakeFiles/Node.dir/Node/Node.cpp.o -c /home/matt/Desktop/C++/LinkedList/Node/Node.cpp",
+  "file": "/home/matt/Desktop/C++/LinkedList/Node/Node.cpp"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build",
+  "command": "/usr/bin/g++   -g -fPIE -o CMakeFiles/ND.dir/main.cpp.o -c /home/matt/Desktop/C++/LinkedList/main.cpp",
+  "file": "/home/matt/Desktop/C++/LinkedList/main.cpp"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build",
+  "command": "/usr/bin/g++   -g -fPIE -o CMakeFiles/ND.dir/Node/Node.cpp.o -c /home/matt/Desktop/C++/LinkedList/Node/Node.cpp",
+  "file": "/home/matt/Desktop/C++/LinkedList/Node/Node.cpp"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build/googletest/googlemock",
+  "command": "/usr/bin/g++  -I/home/matt/Desktop/C++/LinkedList/googletest/googlemock/include -I/home/matt/Desktop/C++/LinkedList/googletest/googlemock -isystem /home/matt/Desktop/C++/LinkedList/googletest/googletest/include -isystem /home/matt/Desktop/C++/LinkedList/googletest/googletest -g -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/matt/Desktop/C++/LinkedList/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/matt/Desktop/C++/LinkedList/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build/googletest/googlemock",
+  "command": "/usr/bin/g++  -isystem /home/matt/Desktop/C++/LinkedList/googletest/googlemock/include -isystem /home/matt/Desktop/C++/LinkedList/googletest/googlemock -isystem /home/matt/Desktop/C++/LinkedList/googletest/googletest/include -isystem /home/matt/Desktop/C++/LinkedList/googletest/googletest -g -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/matt/Desktop/C++/LinkedList/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/matt/Desktop/C++/LinkedList/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build/googletest/googletest",
+  "command": "/usr/bin/g++  -I/home/matt/Desktop/C++/LinkedList/googletest/googletest/include -I/home/matt/Desktop/C++/LinkedList/googletest/googletest -g -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/matt/Desktop/C++/LinkedList/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/matt/Desktop/C++/LinkedList/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build/googletest/googletest",
+  "command": "/usr/bin/g++  -isystem /home/matt/Desktop/C++/LinkedList/googletest/googletest/include -isystem /home/matt/Desktop/C++/LinkedList/googletest/googletest -g -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/matt/Desktop/C++/LinkedList/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/matt/Desktop/C++/LinkedList/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build/test",
+  "command": "/usr/bin/g++  -isystem /home/matt/Desktop/C++/LinkedList/googletest/googletest/include -isystem /home/matt/Desktop/C++/LinkedList/googletest/googletest -g -fPIE -o CMakeFiles/LinkedList_Tests.dir/LinkedList_Tests.cpp.o -c /home/matt/Desktop/C++/LinkedList/test/LinkedList_Tests.cpp",
+  "file": "/home/matt/Desktop/C++/LinkedList/test/LinkedList_Tests.cpp"
+},
+{
+  "directory": "/home/matt/Desktop/C++/LinkedList/build/test",
+  "command": "/usr/bin/g++  -isystem /home/matt/Desktop/C++/LinkedList/googletest/googletest/include -isystem /home/matt/Desktop/C++/LinkedList/googletest/googletest -g -fPIE -o CMakeFiles/Node_Tests.dir/Node_Tests.cpp.o -c /home/matt/Desktop/C++/LinkedList/test/Node_Tests.cpp",
+  "file": "/home/matt/Desktop/C++/LinkedList/test/Node_Tests.cpp"
+}
+]

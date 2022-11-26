@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Node_Tests.dir/Node_Tests.cpp.o -o Node_Tests  ../lib/libgtest_main.a ../libNode.a ../lib/libgtest.a -lpthread 

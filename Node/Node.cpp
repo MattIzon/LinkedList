@@ -2,18 +2,22 @@
 
 Node::Node(int value)
 {
+    this->value = value;
+    this->next = nullptr;
 }
 
 Node::Node(int value, Node *next)
 {
+    this->value = value;
+    this->next = next;
 }
 
 int Node::getValue()
 {
-    return 0;
+    return this->value;
 }
 
 Node *Node::getNext()
 {
-    return 0;
+    return this->next;
 }

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/ND.dir/main.cpp.o CMakeFiles/ND.dir/Node/Node.cpp.o -o ND 
