@@ -8,8 +8,8 @@ TEST(Initialisation, No_Values)
     // Length is 0
     EXPECT_EQ(list.getLength(), 0);
 
-    // Value is an index error
-    EXPECT_THROW(list.getValue(0), "Index Error")
+    // getValue is an error
+    EXPECT_THROW(list.getValue(0), std::out_of_range);
 }
 
 TEST(Initialisation, Single_Value)
@@ -23,8 +23,8 @@ TEST(Initialisation, Single_Value)
     // Value at index 0 is value passed
     EXPECT_EQ(list.getValue(0), value);
 
-    // Value at a higher index is an index error
-    EXPECT_THROW(list.getValue(1), "Index Error")
+    // Value at a higher index is an error
+    EXPECT_THROW(list.getValue(1), std::out_of_range);
 }
 
 TEST(Initialisation, List_Of_Values)
@@ -41,6 +41,6 @@ TEST(Initialisation, List_Of_Values)
         EXPECT_EQ(list.getValue(i), values[i]);
     }
 
-    // Value at any other index is an index error
-    EXPECT_THROW(list.getValue(4), "Index Error")
+    // Value at any other index is an error
+    EXPECT_THROW(list.getValue(4), std::out_of_range);
 }
