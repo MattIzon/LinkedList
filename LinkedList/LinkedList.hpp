@@ -9,7 +9,9 @@ class LinkedList
 public:
     LinkedList(int value);
     LinkedList(int values[], int size);
-    ~LinkedList();
+    // ~LinkedList();
     int getLength();
     int getValue(int index);
+    void add(int value, int index);
+    void remove(int index);
 };

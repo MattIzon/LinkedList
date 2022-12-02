@@ -11,4 +11,5 @@ public:
     Node(int value, Node *next);
     int getValue();
     Node *getNext();
+    void setNext(Node *next);
 };

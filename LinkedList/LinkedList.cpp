@@ -3,12 +3,14 @@
 #include "LinkedList.hpp"
 
 LinkedList::LinkedList(int value)
+// Creates a LinkedList with a single Node of value
 {
     this->head = new Node(value);
     this->length = 1;
 }
 
 LinkedList::LinkedList(int values[], int size)
+// Creates a LinkedList with a size Nodes containing the vales in the array
 {
     if (size == 0)
     {
@@ -26,10 +28,10 @@ LinkedList::LinkedList(int values[], int size)
     this->length = size;
 }
 
-LinkedList::~LinkedList()
-{
-    // remove element at tail
-}
+// LinkedList::~LinkedList()
+// // {
+// //     // remove element at tail
+// // }
 
 int LinkedList::getLength()
 {
@@ -38,6 +40,7 @@ int LinkedList::getLength()
 
 int LinkedList::getValue(int index)
 {
+    // check index is valid
     if (index < 0 || index >= this->length)
     {
         throw std::out_of_range("Index out of bounds");
@@ -49,4 +52,42 @@ int LinkedList::getValue(int index)
         temp = temp->getNext();
     }
     return temp->getValue();
+}
+
+void LinkedList::add(int value, int index)
+{
+}
+
+void LinkedList::remove(int index)
+// remove the Node at index
+{
+    this->length--;
+
+    if (index == 0)
+    {
+        this->head = this->head->getNext();
+        return;
+    }
+
+    // find the index - 1 node
+    Node *previous = this->head;
+    for (int i = 0; i < index - 1; i++)
+    {
+        previous = previous->getNext();
+    }
+
+    // get a reference to the node for removal
+    Node *remove = previous->getNext();
+
+    // link the node index-1 to index+1 if it exists
+    try
+    {
+        previous->setNext(remove->getNext());
+    }
+    catch (std::out_of_range)
+    {
+        // continue
+    }
+
+    delete remove;
 }
