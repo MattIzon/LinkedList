@@ -1,3 +1,4 @@
+#include <stdexcept>
 #include "Node.hpp"
 
 Node::Node(int value)
@@ -19,5 +20,9 @@ int Node::getValue()
 
 Node *Node::getNext()
 {
+    if (this->next == nullptr)
+    {
+        throw std::out_of_range("Next has not been assigned");
+    }
     return this->next;
 }

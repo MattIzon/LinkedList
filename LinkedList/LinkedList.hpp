@@ -1,12 +1,15 @@
 #pragma once
+#include "../Node/Node.hpp"
 
 class LinkedList
 {
+    Node *head;
+    int length;
 
 public:
-    LinkedList();
     LinkedList(int value);
-    LinkedList(int values[]);
+    LinkedList(int values[], int size);
+    ~LinkedList();
     int getLength();
     int getValue(int index);
 };

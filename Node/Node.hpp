@@ -6,6 +6,7 @@ class Node
     Node *next;
 
 public:
+    Node() = default;
     Node(int value);
     Node(int value, Node *next);
     int getValue();

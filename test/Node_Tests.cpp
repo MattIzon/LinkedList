@@ -10,7 +10,7 @@ TEST(Initialisation, No_Next)
     EXPECT_EQ(node.getValue(), value);
 
     // Next is nullptr
-    EXPECT_EQ(node.getNext(), nullptr);
+    EXPECT_THROW(node.getNext(), std::out_of_range);
 }
 
 TEST(Initialisation, With_Next)
