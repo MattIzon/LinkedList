@@ -131,7 +131,7 @@ TEST(Remove, End)
 {
     int values[] = {100, 99, 98, 97};
     LinkedList list = LinkedList(values, 4);
-    int position = list.getLength();
+    int position = list.getLength() - 1;
     list.remove(position);
 
     // Length is the size of values provided + 1

@@ -80,13 +80,19 @@ void LinkedList::remove(int index)
     Node *remove = previous->getNext();
 
     // link the node index-1 to index+1 if it exists
-    try
+    // Refactored to fix testing error caused by the handled exception
+    // try
+    // {
+    //     previous->setNext(remove->getNext());
+    // }
+    // catch (std::out_of_range)
+    // {
+    //     // continue
+    // }
+    Node *next = remove->getNext();
+    if (next != nullptr)
     {
-        previous->setNext(remove->getNext());
-    }
-    catch (std::out_of_range)
-    {
-        // continue
+        previous->setNext(next);
     }
 
     delete remove;

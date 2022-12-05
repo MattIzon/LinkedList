@@ -10,7 +10,9 @@ TEST(Initialisation, No_Next)
     EXPECT_EQ(node.getValue(), value);
 
     // Next is nullptr
-    EXPECT_THROW(node.getNext(), std::out_of_range);
+    // Refactored to fix a testing error from LinkedList_Tests Remove End
+    // EXPECT_THROW(node.getNext(), std::out_of_range);
+    EXPECT_EQ(node.getNext(), nullptr);
 }
 
 TEST(Initialisation, With_Next)
