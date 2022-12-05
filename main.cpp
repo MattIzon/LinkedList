@@ -7,8 +7,8 @@ int main()
     int values[] = {100, 99, 98};
     int size = sizeof(values) / sizeof(values[0]);
     LinkedList list = LinkedList(values, size);
-    list.remove(2);
-    for (int i = 0; i < 2; i++)
+    list.add(999, 4);
+    for (int i = 0; i < list.getLength(); i++)
     {
         std::cout << i << ": " << list.getValue(i) << "\n";
     }

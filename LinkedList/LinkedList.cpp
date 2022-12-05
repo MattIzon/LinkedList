@@ -55,7 +55,27 @@ int LinkedList::getValue(int index)
 }
 
 void LinkedList::add(int value, int index)
+// add a Node at index
 {
+    this->length++;
+
+    Node *previous = this->head;
+    if (index > 0)
+    // Index is not the head
+    {
+        for (int i = 0; i < index - 1; i++)
+        {
+            previous = previous->getNext();
+        }
+        Node *newNode = new Node(value, previous->getNext());
+        previous->setNext(newNode);
+    }
+    else
+    // Index is the head
+    {
+        Node *newNode = new Node(value, previous);
+        this->head = newNode;
+    }
 }
 
 void LinkedList::remove(int index)
